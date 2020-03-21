@@ -24,7 +24,8 @@ app.use('/api', apiRouter);
 
 app.use(history());  // this after /api. or it breaks gets in /api
 app.use(express.static(path.join(__dirname, 'public'))); // unused?
-app.use(express.static(path.join(__dirname, '../v_app1/dist')));
+//app.use(express.static(path.join(__dirname, '../v_app1/dist')));
+app.use(express.static(path.join(__dirname, 'v_dist')));
 //app.use('/', indexRouter);
 //app.use('/users', usersRouter);
 
