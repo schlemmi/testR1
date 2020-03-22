@@ -11,6 +11,10 @@ var logger = require('morgan');
 var apiRouter = require('./routes/api');
 var app = express();
 
+console.log('ENV:', process.env)
+
+console.log('env key sort', Object.keys(process.env).sort())
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
@@ -21,6 +25,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use('/api', apiRouter);
+
+app.get('/admin', (req, res, next) => {
+  console.log('in admin')
+  res.render('admin', { title: 'ti', msg: 'hhhmmm' })
+})
 
 app.use(history());  // this after /api. or it breaks gets in /api
 app.use(express.static(path.join(__dirname, 'public'))); // unused?
