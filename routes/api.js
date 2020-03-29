@@ -4,11 +4,15 @@ var router = express.Router();
 
 var debug = require('debug')('api')
 
-/* GET users listing. */
 router.get('/a1', function (req, res, next) {
   console.log('in a1')
   debug('d in a1')
   res.json({ msg: 'message', v: 1 })
+})
+
+router.get('/sud1', function (req, res, next) {
+  console.log('in sud1')
+  res.json({ id: 1, v: {1:8,9:4,11:3,19:9,3:9,23:6,15:9,17:1,27:6,29:5,45:4,47:7,33:3,35:7,51:1,53:5,63:6,65:2,57:4,77:3,61:2,69:1,71:5,79:4}})
 })
 
 router.post('/p1', (req, res, next) => {

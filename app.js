@@ -12,8 +12,7 @@ var apiRouter = require('./routes/api');
 var app = express();
 
 console.log('ENV:', process.env)
-
-console.log('env key sort', Object.keys(process.env).sort())
+//console.log('env key sort', Object.keys(process.env).sort())
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
