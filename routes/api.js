@@ -3,6 +3,8 @@ var express = require('express');
 var router = express.Router();
 
 var debug = require('debug')('api')
+//import * as slib from "../lib/slib.js"
+const slib = require("../lib/slib.js")
 
 router.get('/a1', function (req, res, next) {
   console.log('in a1')
@@ -17,9 +19,17 @@ router.get('/sud1', function (req, res, next) {
 
 router.post('/p1', (req, res, next) => {
   console.log('in post mes ' + JSON.stringify(req.body))
-
   debug('d in p1 %o', req.body)
   res.json({ msg: 'in p1', v: 1 })
+})
+
+router.post('/sud1', (req, res, next) => {
+  //console.log('in post mes ' + JSON.stringify(req.body))
+  //debug('d in p1 %o', req.body)
+  let x = slib.fun1(req.body)
+  console.log('po s',x)
+  //res.json({ msg: 'in p1', v: 1 })
+  res.json(x)
 })
 
 module.exports = router;
