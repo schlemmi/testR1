@@ -1,0 +1,223 @@
+2020-04-04T09:23:05.910724+00:00 app[web.1]: [0mGET /css/app.fc2beef0.css [32m200 [0m3.054 ms - 974[0m
+2020-04-04T09:23:06.100829+00:00 app[web.1]: [0mGET /js/chunk-vendors.adec6846.js [32m200 [0m1.135 ms - 153474[0m
+2020-04-04T09:23:06.262798+00:00 heroku[router]: at=info method=GET path="/js/app.b59765a9.js" host=aqueous-plateau-07552.herokuapp.com request_id=64b7a4e9-87bb-4ef9-98d0-0f27cc9df32a fwd="124.39.15.68" dyno=web.1 connect=0ms service=3ms status=200 bytes=12074 protocol=https
+2020-04-04T09:23:06.105101+00:00 heroku[router]: at=info method=GET path="/js/chunk-vendors.adec6846.js" host=aqueous-plateau-07552.herokuapp.com request_id=afd871d5-8f47-459e-85a9-b3f6ec674166 fwd="124.39.15.68" dyno=web.1 connect=0ms service=15ms status=200 bytes=153812 protocol=https
+2020-04-04T09:23:06.262792+00:00 app[web.1]: [0mGET /js/app.b59765a9.js [32m200 [0m1.644 ms - 11738[0m
+2020-04-04T09:23:07.931725+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=aqueous-plateau-07552.herokuapp.com request_id=7129648e-8c9b-44a8-9f4e-97788971c927 fwd="124.39.15.68" dyno=web.1 connect=0ms service=3ms status=200 bytes=4596 protocol=https
+2020-04-04T09:23:07.931429+00:00 app[web.1]: [0mGET /favicon.ico [32m200 [0m0.997 ms - 4286[0m
+2020-04-04T09:23:10.372188+00:00 app[web.1]: [0mGET /favicon.ico [36m304 [0m2.720 ms - -[0m
+2020-04-04T09:23:10.372461+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=aqueous-plateau-07552.herokuapp.com request_id=46957e30-dbad-4afa-b268-3adc7928ab19 fwd="124.39.15.68" dyno=web.1 connect=1ms service=6ms status=304 bytes=270 protocol=https
+2020-04-04T09:23:27.615031+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=aqueous-plateau-07552.herokuapp.com request_id=84a5225d-2d03-40c4-b342-ed5e56c607be fwd="124.39.15.68" dyno=web.1 connect=1ms service=5ms status=304 bytes=270 protocol=https
+2020-04-04T09:23:27.614750+00:00 app[web.1]: [0mGET /favicon.ico [36m304 [0m0.742 ms - -[0m
+2020-04-04T09:24:10.831989+00:00 heroku[router]: at=info method=GET path="/api/sud1" host=aqueous-plateau-07552.herokuapp.com request_id=b7585a71-52b3-4add-a780-6fb156ace106 fwd="124.39.15.68" dyno=web.1 connect=0ms service=7ms status=200 bytes=419 protocol=https
+2020-04-04T09:24:10.826591+00:00 app[web.1]: in sud1
+2020-04-04T09:24:10.831149+00:00 app[web.1]: [0mGET /api/sud1 [32m200 [0m2.674 ms - 179[0m
+2020-04-04T09:24:21.225135+00:00 app[web.1]: f 0 0 0
+2020-04-04T09:24:21.230839+00:00 app[web.1]: sol n: 0.000851 nCell 0.018722
+2020-04-04T09:24:21.230960+00:00 app[web.1]: s 186453792
+2020-04-04T09:24:21.231024+00:00 app[web.1]: s 934827516
+2020-04-04T09:24:21.231104+00:00 app[web.1]: s 572961834
+2020-04-04T09:24:21.231183+00:00 app[web.1]: s 695318427
+2020-04-04T09:24:21.231248+00:00 app[web.1]: s 218574369
+2020-04-04T09:24:21.231340+00:00 app[web.1]: s 347296185
+2020-04-04T09:24:21.231393+00:00 app[web.1]: s 853642971
+2020-04-04T09:24:21.231464+00:00 app[web.1]: s 461789253
+2020-04-04T09:24:21.231545+00:00 app[web.1]: s 729135648
+2020-04-04T09:24:21.334338+00:00 app[web.1]: end n: 0.044434 nCell 0.977548 1
+2020-04-04T09:24:21.334508+00:00 app[web.1]: po s { nSol: 1, nPos: 44434 }
+2020-04-04T09:24:21.335339+00:00 app[web.1]: [0mPOST /api/sud1 [32m200 [0m110.674 ms - 23[0m
+2020-04-04T09:24:21.336439+00:00 heroku[router]: at=info method=POST path="/api/sud1" host=aqueous-plateau-07552.herokuapp.com request_id=93106504-54c3-4b16-9b6c-233c59cc36eb fwd="124.39.15.68" dyno=web.1 connect=1ms service=114ms status=200 bytes=262 protocol=https
+2020-04-04T09:24:34.693181+00:00 heroku[router]: at=info method=POST path="/api/sud1" host=aqueous-plateau-07552.herokuapp.com request_id=a606101a-d81f-4839-ab29-59ea3198330b fwd="124.39.15.68" dyno=web.1 connect=1ms service=22ms status=200 bytes=261 protocol=https
+2020-04-04T09:24:34.672227+00:00 app[web.1]: f 0 0 0
+2020-04-04T09:24:34.692003+00:00 app[web.1]: end n: 0.009197 nCell 0.202356 0
+2020-04-04T09:24:34.692155+00:00 app[web.1]: po s { nSol: 0, nPos: 9197 }
+2020-04-04T09:24:34.693006+00:00 app[web.1]: [0mPOST /api/sud1 [32m200 [0m20.889 ms - 22[0m
+2020-04-04T09:26:22.582933+00:00 heroku[router]: at=info method=GET path="/" host=aqueous-plateau-07552.herokuapp.com request_id=b13c6c6a-56a6-4d67-a840-4236a95d0c48 fwd="61.215.1.65" dyno=web.1 connect=1ms service=9ms status=200 bytes=1036 protocol=https
+2020-04-04T09:26:22.582912+00:00 app[web.1]: [0mGET / [32m200 [0m7.254 ms - 716[0m
+2020-04-04T09:26:22.801227+00:00 app[web.1]: [0mGET /css/app.fc2beef0.css [32m200 [0m1.156 ms - 974[0m
+2020-04-04T09:26:22.801120+00:00 heroku[router]: at=info method=GET path="/css/app.fc2beef0.css" host=aqueous-plateau-07552.herokuapp.com request_id=4785cd10-4b5c-4f8f-9b52-b864d53a4798 fwd="61.215.1.65" dyno=web.1 connect=1ms service=3ms status=200 bytes=1293 protocol=https
+2020-04-04T09:26:23.161441+00:00 heroku[router]: at=info method=GET path="/js/app.b59765a9.js" host=aqueous-plateau-07552.herokuapp.com request_id=f11101ce-0ae9-4d7a-a8e0-ec52ed04c1f2 fwd="61.215.1.65" dyno=web.1 connect=1ms service=6ms status=200 bytes=12074 protocol=https
+2020-04-04T09:26:23.160961+00:00 app[web.1]: [0mGET /js/app.b59765a9.js [32m200 [0m2.363 ms - 11738[0m
+2020-04-04T09:26:23.360044+00:00 app[web.1]: [0mGET /js/chunk-vendors.adec6846.js [32m200 [0m1.152 ms - 153474[0m
+2020-04-04T09:26:23.368426+00:00 heroku[router]: at=info method=GET path="/js/chunk-vendors.adec6846.js" host=aqueous-plateau-07552.herokuapp.com request_id=66219469-9d04-4ce7-a7bc-58987a9740bb fwd="61.215.1.65" dyno=web.1 connect=0ms service=14ms status=200 bytes=153812 protocol=https
+2020-04-04T09:26:24.753056+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=aqueous-plateau-07552.herokuapp.com request_id=1d8292a9-7b97-471f-9030-d6be24411faa fwd="61.215.1.65" dyno=web.1 connect=1ms service=23ms status=200 bytes=4596 protocol=https
+2020-04-04T09:26:24.748556+00:00 app[web.1]: [0mGET /favicon.ico [32m200 [0m3.989 ms - 4286[0m
+2020-04-04T09:26:28.386214+00:00 heroku[router]: at=info method=GET path="/api/sud1" host=aqueous-plateau-07552.herokuapp.com request_id=08ad0b87-0a17-4341-a3b3-a63fb9d79c8f fwd="61.215.1.65" dyno=web.1 connect=0ms service=3ms status=200 bytes=419 protocol=https
+2020-04-04T09:26:28.384871+00:00 app[web.1]: in sud1
+2020-04-04T09:26:28.386124+00:00 app[web.1]: [0mGET /api/sud1 [32m200 [0m0.859 ms - 179[0m
+2020-04-04T09:26:46.571720+00:00 app[web.1]: f 0 0 0
+2020-04-04T09:26:46.572281+00:00 app[web.1]: sol n: 0.000391 nCell 0.008602
+2020-04-04T09:26:46.572342+00:00 app[web.1]: s 123456789
+2020-04-04T09:26:46.572401+00:00 app[web.1]: s 456789123
+2020-04-04T09:26:46.572460+00:00 app[web.1]: s 789123456
+2020-04-04T09:26:46.572555+00:00 app[web.1]: s 214365897
+2020-04-04T09:26:46.572709+00:00 app[web.1]: s 365897214
+2020-04-04T09:26:46.572756+00:00 app[web.1]: s 897214365
+2020-04-04T09:26:46.572863+00:00 app[web.1]: s 531642978
+2020-04-04T09:26:46.572916+00:00 app[web.1]: s 642978531
+2020-04-04T09:26:46.572989+00:00 app[web.1]: s 978531642
+2020-04-04T09:26:46.573110+00:00 app[web.1]: sol n: 0.000415 nCell 0.009108
+2020-04-04T09:26:46.573168+00:00 app[web.1]: s 123456789
+2020-04-04T09:26:46.573232+00:00 app[web.1]: s 456789123
+2020-04-04T09:26:46.573295+00:00 app[web.1]: s 789123456
+2020-04-04T09:26:46.573349+00:00 app[web.1]: s 214365897
+2020-04-04T09:26:46.573412+00:00 app[web.1]: s 365897214
+2020-04-04T09:26:46.573470+00:00 app[web.1]: s 897214365
+2020-04-04T09:26:46.573525+00:00 app[web.1]: s 531642978
+2020-04-04T09:26:46.573587+00:00 app[web.1]: s 648971532
+2020-04-04T09:26:46.573643+00:00 app[web.1]: s 972538641
+2020-04-04T09:26:46.573722+00:00 app[web.1]: end n: 0.000415 nCell 0.009108 2
+2020-04-04T09:26:46.573893+00:00 app[web.1]: po s { nSol: 2, nPos: 415 }
+2020-04-04T09:26:46.574811+00:00 app[web.1]: [0mPOST /api/sud1 [32m200 [0m3.116 ms - 21[0m
+2020-04-04T09:26:46.579308+00:00 heroku[router]: at=info method=POST path="/api/sud1" host=aqueous-plateau-07552.herokuapp.com request_id=329783bc-4efd-49ac-abba-3e1bad401e7b fwd="61.215.1.65" dyno=web.1 connect=0ms service=5ms status=200 bytes=260 protocol=https
+2020-04-04T09:26:48.266948+00:00 heroku[router]: at=info method=GET path="/api/sud1" host=aqueous-plateau-07552.herokuapp.com request_id=a8f1ea20-d540-47cf-8e11-f933e1a4fe81 fwd="61.215.1.65" dyno=web.1 connect=0ms service=5ms status=200 bytes=419 protocol=https
+2020-04-04T09:26:48.265867+00:00 app[web.1]: in sud1
+2020-04-04T09:26:48.266982+00:00 app[web.1]: [0mGET /api/sud1 [32m200 [0m1.049 ms - 179[0m
+2020-04-04T09:26:49.799549+00:00 app[web.1]: f 0 0 0
+2020-04-04T09:26:49.813705+00:00 app[web.1]: sol n: 0.005691 nCell 0.125202
+2020-04-04T09:26:49.813785+00:00 app[web.1]: s 186453792
+2020-04-04T09:26:49.813845+00:00 app[web.1]: s 934827516
+2020-04-04T09:26:49.813902+00:00 app[web.1]: s 572961834
+2020-04-04T09:26:49.814005+00:00 app[web.1]: s 695318427
+2020-04-04T09:26:49.814083+00:00 app[web.1]: s 218574369
+2020-04-04T09:26:49.814132+00:00 app[web.1]: s 347296185
+2020-04-04T09:26:49.814192+00:00 app[web.1]: s 853642971
+2020-04-04T09:26:49.814270+00:00 app[web.1]: s 461789253
+2020-04-04T09:26:49.814318+00:00 app[web.1]: s 729135648
+2020-04-04T09:26:50.191843+00:00 heroku[router]: at=info method=POST path="/api/sud1" host=aqueous-plateau-07552.herokuapp.com request_id=01976561-e21a-4e59-92d3-525e037d5ac6 fwd="61.215.1.65" dyno=web.1 connect=0ms service=394ms status=200 bytes=263 protocol=https
+2020-04-04T09:26:50.190599+00:00 app[web.1]: end n: 0.164672 nCell 3.622784 1
+2020-04-04T09:26:50.190744+00:00 app[web.1]: po s { nSol: 1, nPos: 164672 }
+2020-04-04T09:26:50.191561+00:00 app[web.1]: [0mPOST /api/sud1 [32m200 [0m392.321 ms - 24[0m
+2020-04-04T09:27:54.971438+00:00 heroku[router]: at=info method=GET path="/other" host=aqueous-plateau-07552.herokuapp.com request_id=546a4fef-ebeb-474f-af7c-32152577be9a fwd="61.215.1.65" dyno=web.1 connect=0ms service=13ms status=200 bytes=1036 protocol=https
+2020-04-04T09:27:54.971592+00:00 app[web.1]: [0mGET /other [32m200 [0m9.725 ms - 716[0m
+2020-04-04T09:27:55.196020+00:00 app[web.1]: [0mGET /css/app.fc2beef0.css [32m200 [0m15.940 ms - 974[0m
+2020-04-04T09:27:55.196378+00:00 heroku[router]: at=info method=GET path="/css/app.fc2beef0.css" host=aqueous-plateau-07552.herokuapp.com request_id=2a493208-e3a9-44e6-bde3-d541d00cc1e4 fwd="61.215.1.65" dyno=web.1 connect=1ms service=22ms status=200 bytes=1293 protocol=https
+2020-04-04T09:27:55.535647+00:00 heroku[router]: at=info method=GET path="/js/app.b59765a9.js" host=aqueous-plateau-07552.herokuapp.com request_id=c8d536d7-5a5f-4606-b9d6-242dd0a39ea6 fwd="61.215.1.65" dyno=web.1 connect=0ms service=7ms status=200 bytes=12074 protocol=https
+2020-04-04T09:27:55.535545+00:00 app[web.1]: [0mGET /js/app.b59765a9.js [32m200 [0m4.920 ms - 11738[0m
+2020-04-04T09:27:55.738947+00:00 app[web.1]: [0mGET /js/chunk-vendors.adec6846.js [32m200 [0m1.195 ms - 153474[0m
+2020-04-04T09:27:55.750763+00:00 heroku[router]: at=info method=GET path="/js/chunk-vendors.adec6846.js" host=aqueous-plateau-07552.herokuapp.com request_id=c49443cc-c10c-4a11-b174-063aaf0d72e4 fwd="61.215.1.65" dyno=web.1 connect=0ms service=16ms status=200 bytes=153812 protocol=https
+2020-04-04T09:27:57.128508+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=aqueous-plateau-07552.herokuapp.com request_id=1ec67fd5-c8f9-41c2-88b0-de49f84a4aba fwd="61.215.1.65" dyno=web.1 connect=1ms service=3ms status=200 bytes=4596 protocol=https
+2020-04-04T09:27:57.127605+00:00 app[web.1]: [0mGET /favicon.ico [32m200 [0m0.989 ms - 4286[0m
+2020-04-04T09:30:02.292916+00:00 heroku[router]: at=info method=GET path="/" host=aqueous-plateau-07552.herokuapp.com request_id=6417b461-2ef1-49a3-975b-8528db0d6e8e fwd="61.215.1.65" dyno=web.1 connect=1ms service=6ms status=200 bytes=1036 protocol=https
+2020-04-04T09:30:02.292326+00:00 app[web.1]: [0mGET / [32m200 [0m3.926 ms - 716[0m
+2020-04-04T09:30:02.523476+00:00 app[web.1]: [0mGET /css/app.fc2beef0.css [32m200 [0m1.090 ms - 974[0m
+2020-04-04T09:30:02.524564+00:00 heroku[router]: at=info method=GET path="/css/app.fc2beef0.css" host=aqueous-plateau-07552.herokuapp.com request_id=d32aedbe-eae4-45ca-8298-38e81ec68ae2 fwd="61.215.1.65" dyno=web.1 connect=1ms service=13ms status=200 bytes=1293 protocol=https
+2020-04-04T09:30:09.482173+00:00 heroku[router]: at=info method=GET path="/" host=aqueous-plateau-07552.herokuapp.com request_id=fa094686-b57a-482b-98ba-5861c4898218 fwd="61.215.1.65" dyno=web.1 connect=1ms service=3ms status=304 bytes=269 protocol=https
+2020-04-04T09:30:09.481268+00:00 app[web.1]: [0mGET / [36m304 [0m1.155 ms - -[0m
+2020-04-04T09:30:09.690234+00:00 app[web.1]: [0mGET /js/chunk-vendors.adec6846.js [32m200 [0m5.338 ms - 153474[0m
+2020-04-04T09:30:09.701049+00:00 heroku[router]: at=info method=GET path="/js/chunk-vendors.adec6846.js" host=aqueous-plateau-07552.herokuapp.com request_id=8b52a855-fabb-46af-b6fc-94ccfd46710b fwd="61.215.1.65" dyno=web.1 connect=1ms service=18ms status=200 bytes=153812 protocol=https
+2020-04-04T09:30:10.037972+00:00 heroku[router]: at=info method=GET path="/js/app.b59765a9.js" host=aqueous-plateau-07552.herokuapp.com request_id=fe30eb91-3c78-44a4-bc90-2efb1202a4b1 fwd="61.215.1.65" dyno=web.1 connect=0ms service=8ms status=200 bytes=12074 protocol=https
+2020-04-04T09:30:10.034898+00:00 heroku[router]: at=info method=GET path="/css/app.fc2beef0.css" host=aqueous-plateau-07552.herokuapp.com request_id=b46b3223-ecd7-41f5-892b-82d02d6b55e0 fwd="61.215.1.65" dyno=web.1 connect=2ms service=6ms status=304 bytes=269 protocol=https
+2020-04-04T09:30:10.035688+00:00 app[web.1]: [0mGET /css/app.fc2beef0.css [36m304 [0m4.321 ms - -[0m
+2020-04-04T09:30:10.037687+00:00 app[web.1]: [0mGET /js/app.b59765a9.js [32m200 [0m5.856 ms - 11738[0m
+2020-04-04T09:39:24.028475+00:00 heroku[router]: at=info method=GET path="/api/sud1" host=aqueous-plateau-07552.herokuapp.com request_id=59c4e0bf-e545-40cf-8aa6-1e4332d7e852 fwd="61.215.1.65" dyno=web.1 connect=0ms service=2ms status=304 bytes=182 protocol=https
+2020-04-04T09:39:24.028411+00:00 app[web.1]: in sud1
+2020-04-04T09:39:24.029132+00:00 app[web.1]: [0mGET /api/sud1 [36m304 [0m0.501 ms - -[0m
+2020-04-04T09:39:41.921172+00:00 app[web.1]: err { NotFoundError: Not Found
+2020-04-04T09:39:41.921181+00:00 app[web.1]:     at /app/app.js:42:8
+2020-04-04T09:39:41.921182+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)
+2020-04-04T09:39:41.921183+00:00 app[web.1]:     at trim_prefix (/app/node_modules/express/lib/router/index.js:317:13)
+2020-04-04T09:39:41.921184+00:00 app[web.1]:     at /app/node_modules/express/lib/router/index.js:284:7
+2020-04-04T09:39:41.921184+00:00 app[web.1]:     at Function.process_params (/app/node_modules/express/lib/router/index.js:335:12)
+2020-04-04T09:39:41.921184+00:00 app[web.1]:     at next (/app/node_modules/express/lib/router/index.js:275:10)
+2020-04-04T09:39:41.921185+00:00 app[web.1]:     at SendStream.error (/app/node_modules/serve-static/index.js:121:7)
+2020-04-04T09:39:41.921185+00:00 app[web.1]:     at emitOne (events.js:116:13)
+2020-04-04T09:39:41.921186+00:00 app[web.1]:     at SendStream.emit (events.js:211:7)
+2020-04-04T09:39:41.921186+00:00 app[web.1]:     at SendStream.error (/app/node_modules/send/index.js:270:17) message: 'Not Found' }
+2020-04-04T09:39:41.925158+00:00 app[web.1]: [0mGET /js/app.fa3b9099.js.map [33m404 [0m5.023 ms - 160[0m
+2020-04-04T09:39:41.924794+00:00 heroku[router]: at=info method=GET path="/js/app.fa3b9099.js.map" host=aqueous-plateau-07552.herokuapp.com request_id=3bf32142-a04a-4bbe-8e62-5ff898c78e57 fwd="124.39.15.68" dyno=web.1 connect=1ms service=9ms status=404 bytes=400 protocol=https
+2020-04-04T09:39:42.351079+00:00 heroku[router]: at=info method=GET path="/precache-manifest.18390249265e05747cddd398d7e4e5ca.js" host=aqueous-plateau-07552.herokuapp.com request_id=1d0b441f-d75c-4745-baa7-70c648e55cab fwd="124.39.15.68" dyno=web.1 connect=1ms service=5ms status=404 bytes=400 protocol=https
+2020-04-04T09:39:42.350397+00:00 app[web.1]: err { NotFoundError: Not Found
+2020-04-04T09:39:42.350409+00:00 app[web.1]:     at /app/app.js:42:8
+2020-04-04T09:39:42.350410+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)
+2020-04-04T09:39:42.350411+00:00 app[web.1]:     at trim_prefix (/app/node_modules/express/lib/router/index.js:317:13)
+2020-04-04T09:39:42.350411+00:00 app[web.1]:     at /app/node_modules/express/lib/router/index.js:284:7
+2020-04-04T09:39:42.350447+00:00 app[web.1]:     at Function.process_params (/app/node_modules/express/lib/router/index.js:335:12)
+2020-04-04T09:39:42.350448+00:00 app[web.1]:     at next (/app/node_modules/express/lib/router/index.js:275:10)
+2020-04-04T09:39:42.350449+00:00 app[web.1]:     at SendStream.error (/app/node_modules/serve-static/index.js:121:7)
+2020-04-04T09:39:42.350450+00:00 app[web.1]:     at emitOne (events.js:116:13)
+2020-04-04T09:39:42.350450+00:00 app[web.1]:     at SendStream.emit (events.js:211:7)
+2020-04-04T09:39:42.350450+00:00 app[web.1]:     at SendStream.error (/app/node_modules/send/index.js:270:17) message: 'Not Found' }
+2020-04-04T09:39:42.351178+00:00 app[web.1]: [0mGET /precache-manifest.18390249265e05747cddd398d7e4e5ca.js [33m404 [0m1.401 ms - 160[0m
+2020-04-04T09:39:42.516176+00:00 app[web.1]: err { NotFoundError: Not Found
+2020-04-04T09:39:42.516177+00:00 app[web.1]:     at /app/app.js:42:8
+2020-04-04T09:39:42.516178+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)
+2020-04-04T09:39:42.516179+00:00 app[web.1]:     at trim_prefix (/app/node_modules/express/lib/router/index.js:317:13)
+2020-04-04T09:39:42.516180+00:00 app[web.1]:     at /app/node_modules/express/lib/router/index.js:284:7
+2020-04-04T09:39:42.516180+00:00 app[web.1]:     at Function.process_params (/app/node_modules/express/lib/router/index.js:335:12)
+2020-04-04T09:39:42.516180+00:00 app[web.1]:     at next (/app/node_modules/express/lib/router/index.js:275:10)
+2020-04-04T09:39:42.516181+00:00 app[web.1]:     at SendStream.error (/app/node_modules/serve-static/index.js:121:7)
+2020-04-04T09:39:42.516181+00:00 app[web.1]:     at emitOne (events.js:116:13)
+2020-04-04T09:39:42.516182+00:00 app[web.1]:     at SendStream.emit (events.js:211:7)
+2020-04-04T09:39:42.516182+00:00 app[web.1]:     at SendStream.error (/app/node_modules/send/index.js:270:17) message: 'Not Found' }
+2020-04-04T09:39:42.519804+00:00 app[web.1]: [0mGET /service-worker.js [33m404 [0m4.069 ms - 160[0m
+2020-04-04T09:39:42.521950+00:00 heroku[router]: at=info method=GET path="/service-worker.js" host=aqueous-plateau-07552.herokuapp.com request_id=0ac62fb1-20bb-472e-aa79-d2eece4d39df fwd="124.39.15.68" dyno=web.1 connect=1ms service=10ms status=404 bytes=400 protocol=https
+2020-04-04T09:39:46.529421+00:00 heroku[router]: at=info method=GET path="/" host=aqueous-plateau-07552.herokuapp.com request_id=979ddfde-6ec3-4bf3-8d4f-dfbe1e3d88c8 fwd="124.39.15.68" dyno=web.1 connect=1ms service=3ms status=200 bytes=1036 protocol=https
+2020-04-04T09:39:46.529023+00:00 app[web.1]: [0mGET / [32m200 [0m1.085 ms - 716[0m
+2020-04-04T09:39:46.740036+00:00 app[web.1]: [0mGET /css/app.fc2beef0.css [32m200 [0m1.069 ms - 974[0m
+2020-04-04T09:39:46.740408+00:00 heroku[router]: at=info method=GET path="/css/app.fc2beef0.css" host=aqueous-plateau-07552.herokuapp.com request_id=c0f4a104-c46b-43eb-8cdb-41a45d00f231 fwd="124.39.15.68" dyno=web.1 connect=1ms service=3ms status=200 bytes=1293 protocol=https
+2020-04-04T09:39:46.916977+00:00 heroku[router]: at=info method=GET path="/js/chunk-vendors.adec6846.js" host=aqueous-plateau-07552.herokuapp.com request_id=a56a98d4-22b6-4b88-8982-473a616920a4 fwd="124.39.15.68" dyno=web.1 connect=1ms service=12ms status=200 bytes=153812 protocol=https
+2020-04-04T09:39:46.907801+00:00 app[web.1]: [0mGET /js/chunk-vendors.adec6846.js [32m200 [0m0.796 ms - 153474[0m
+2020-04-04T09:39:47.085220+00:00 app[web.1]: [0mGET /js/app.b59765a9.js [32m200 [0m1.043 ms - 11738[0m
+2020-04-04T09:39:47.085460+00:00 heroku[router]: at=info method=GET path="/js/app.b59765a9.js" host=aqueous-plateau-07552.herokuapp.com request_id=f18028f5-c7c2-4e77-b0f4-3ebeaf520397 fwd="124.39.15.68" dyno=web.1 connect=0ms service=2ms status=200 bytes=12074 protocol=https
+2020-04-04T09:39:47.686883+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=aqueous-plateau-07552.herokuapp.com request_id=ca90bf6f-b7cd-4335-9e17-4f54de967d6c fwd="124.39.15.68" dyno=web.1 connect=0ms service=1ms status=200 bytes=4596 protocol=https
+2020-04-04T09:39:47.682946+00:00 heroku[router]: at=info method=GET path="/js/app.b59765a9.js.map" host=aqueous-plateau-07552.herokuapp.com request_id=7e31e780-3763-4056-a1b9-ac8c87e633ed fwd="124.39.15.68" dyno=web.1 connect=2ms service=3ms status=304 bytes=270 protocol=https
+2020-04-04T09:39:47.682282+00:00 app[web.1]: [0mGET /js/app.b59765a9.js.map [36m304 [0m0.705 ms - -[0m
+2020-04-04T09:39:47.686635+00:00 app[web.1]: [0mGET /favicon.ico [32m200 [0m0.689 ms - 4286[0m
+2020-04-04T09:41:10.981821+00:00 heroku[router]: at=info method=GET path="/js/chunk-vendors.adec6846.js.map" host=aqueous-plateau-07552.herokuapp.com request_id=19d366e8-f08d-4fa5-9a24-9651e7ed2267 fwd="61.215.1.65" dyno=web.1 connect=0ms service=32ms status=200 bytes=749839 protocol=https
+2020-04-04T09:41:10.965390+00:00 app[web.1]: [0mGET /js/chunk-vendors.adec6846.js.map [32m200 [0m1.276 ms - 749507[0m
+2020-04-04T09:41:11.370393+00:00 app[web.1]: [0mGET /js/app.b59765a9.js.map [32m200 [0m7.255 ms - 55139[0m
+2020-04-04T09:41:11.374386+00:00 heroku[router]: at=info method=GET path="/js/app.b59765a9.js.map" host=aqueous-plateau-07552.herokuapp.com request_id=e07cdd5d-b969-4d2e-b636-a08e34ea111f fwd="61.215.1.65" dyno=web.1 connect=1ms service=17ms status=200 bytes=55469 protocol=https
+2020-04-04T09:41:14.346770+00:00 heroku[router]: at=info method=GET path="/js/app.b59765a9.js.map" host=aqueous-plateau-07552.herokuapp.com request_id=5fcc0df3-1d5c-4d8c-ab9a-e49979047fc6 fwd="61.215.1.65" dyno=web.1 connect=0ms service=7ms status=304 bytes=270 protocol=https
+2020-04-04T09:41:14.345752+00:00 app[web.1]: [0mGET /js/app.b59765a9.js.map [36m304 [0m3.915 ms - -[0m
+2020-04-04T09:46:19.946556+00:00 app[web.1]: err { NotFoundError: Not Found
+2020-04-04T09:46:19.946562+00:00 app[web.1]:     at /app/app.js:42:8
+2020-04-04T09:46:19.946564+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)
+2020-04-04T09:46:19.946566+00:00 app[web.1]:     at trim_prefix (/app/node_modules/express/lib/router/index.js:317:13)
+2020-04-04T09:46:19.946567+00:00 app[web.1]:     at /app/node_modules/express/lib/router/index.js:284:7
+2020-04-04T09:46:19.946567+00:00 app[web.1]:     at Function.process_params (/app/node_modules/express/lib/router/index.js:335:12)
+2020-04-04T09:46:19.946568+00:00 app[web.1]:     at next (/app/node_modules/express/lib/router/index.js:275:10)
+2020-04-04T09:46:19.946568+00:00 app[web.1]:     at SendStream.error (/app/node_modules/serve-static/index.js:121:7)
+2020-04-04T09:46:19.946569+00:00 app[web.1]:     at emitOne (events.js:116:13)
+2020-04-04T09:46:19.946569+00:00 app[web.1]:     at SendStream.emit (events.js:211:7)
+2020-04-04T09:46:19.946570+00:00 app[web.1]:     at SendStream.error (/app/node_modules/send/index.js:270:17) message: 'Not Found' }
+2020-04-04T09:46:19.948113+00:00 app[web.1]: [0mGET /js/app.fa3b9099.js.map [33m404 [0m2.162 ms - 160[0m
+2020-04-04T09:46:19.949541+00:00 heroku[router]: at=info method=GET path="/js/app.fa3b9099.js.map" host=aqueous-plateau-07552.herokuapp.com request_id=1cd1e6fd-b197-4446-9162-11574e403df3 fwd="124.39.15.68" dyno=web.1 connect=1ms service=4ms status=404 bytes=400 protocol=https
+2020-04-04T09:46:20.412427+00:00 heroku[router]: at=info method=GET path="/precache-manifest.18390249265e05747cddd398d7e4e5ca.js" host=aqueous-plateau-07552.herokuapp.com request_id=0477f141-708c-4452-8777-3031f4ed8c4a fwd="124.39.15.68" dyno=web.1 connect=0ms service=3ms status=404 bytes=400 protocol=https
+2020-04-04T09:46:20.410914+00:00 app[web.1]: err { NotFoundError: Not Found
+2020-04-04T09:46:20.410926+00:00 app[web.1]:     at /app/app.js:42:8
+2020-04-04T09:46:20.410927+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)
+2020-04-04T09:46:20.410928+00:00 app[web.1]:     at trim_prefix (/app/node_modules/express/lib/router/index.js:317:13)
+2020-04-04T09:46:20.410929+00:00 app[web.1]:     at /app/node_modules/express/lib/router/index.js:284:7
+2020-04-04T09:46:20.410929+00:00 app[web.1]:     at Function.process_params (/app/node_modules/express/lib/router/index.js:335:12)
+2020-04-04T09:46:20.410929+00:00 app[web.1]:     at next (/app/node_modules/express/lib/router/index.js:275:10)
+2020-04-04T09:46:20.410930+00:00 app[web.1]:     at SendStream.error (/app/node_modules/serve-static/index.js:121:7)
+2020-04-04T09:46:20.410931+00:00 app[web.1]:     at emitOne (events.js:116:13)
+2020-04-04T09:46:20.410931+00:00 app[web.1]:     at SendStream.emit (events.js:211:7)
+2020-04-04T09:46:20.410932+00:00 app[web.1]:     at SendStream.error (/app/node_modules/send/index.js:270:17) message: 'Not Found' }
+2020-04-04T09:46:20.411718+00:00 app[web.1]: [0mGET /precache-manifest.18390249265e05747cddd398d7e4e5ca.js [33m404 [0m1.481 ms - 160[0m
+2020-04-04T09:46:20.742147+00:00 app[web.1]: err { NotFoundError: Not Found
+2020-04-04T09:46:20.742164+00:00 app[web.1]:     at /app/app.js:42:8
+2020-04-04T09:46:20.742165+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)
+2020-04-04T09:46:20.742166+00:00 app[web.1]:     at trim_prefix (/app/node_modules/express/lib/router/index.js:317:13)
+2020-04-04T09:46:20.742167+00:00 app[web.1]:     at /app/node_modules/express/lib/router/index.js:284:7
+2020-04-04T09:46:20.742167+00:00 app[web.1]:     at Function.process_params (/app/node_modules/express/lib/router/index.js:335:12)
+2020-04-04T09:46:20.742167+00:00 app[web.1]:     at next (/app/node_modules/express/lib/router/index.js:275:10)
+2020-04-04T09:46:20.742168+00:00 app[web.1]:     at SendStream.error (/app/node_modules/serve-static/index.js:121:7)
+2020-04-04T09:46:20.742168+00:00 app[web.1]:     at emitOne (events.js:116:13)
+2020-04-04T09:46:20.742169+00:00 app[web.1]:     at SendStream.emit (events.js:211:7)
+2020-04-04T09:46:20.742169+00:00 app[web.1]:     at SendStream.error (/app/node_modules/send/index.js:270:17) message: 'Not Found' }
+2020-04-04T09:46:20.742911+00:00 app[web.1]: [0mGET /service-worker.js [33m404 [0m2.625 ms - 160[0m
+2020-04-04T09:46:20.743129+00:00 heroku[router]: at=info method=GET path="/service-worker.js" host=aqueous-plateau-07552.herokuapp.com request_id=aaa49c30-d732-4aba-b83a-dab4a7279adf fwd="124.39.15.68" dyno=web.1 connect=0ms service=4ms status=404 bytes=400 protocol=https
+2020-04-04T09:46:21.821752+00:00 heroku[router]: at=info method=GET path="/" host=aqueous-plateau-07552.herokuapp.com request_id=389f895c-fbe5-4082-84a0-ac8558157125 fwd="124.39.15.68" dyno=web.1 connect=1ms service=12ms status=200 bytes=1036 protocol=https
+2020-04-04T09:46:21.817984+00:00 app[web.1]: [0mGET / [32m200 [0m6.886 ms - 716[0m
+2020-04-04T09:46:22.038578+00:00 app[web.1]: [0mGET /css/app.fc2beef0.css [32m200 [0m2.515 ms - 974[0m
+2020-04-04T09:46:22.038794+00:00 heroku[router]: at=info method=GET path="/css/app.fc2beef0.css" host=aqueous-plateau-07552.herokuapp.com request_id=91b43084-0130-4de0-9388-fd7e28681b16 fwd="124.39.15.68" dyno=web.1 connect=1ms service=4ms status=200 bytes=1293 protocol=https
+2020-04-04T09:46:22.401956+00:00 heroku[router]: at=info method=GET path="/js/chunk-vendors.adec6846.js" host=aqueous-plateau-07552.herokuapp.com request_id=942044e1-63af-4edb-ba45-656dd4348202 fwd="124.39.15.68" dyno=web.1 connect=0ms service=7ms status=200 bytes=153812 protocol=https
+2020-04-04T09:46:22.369724+00:00 heroku[router]: at=info method=GET path="/js/app.b59765a9.js" host=aqueous-plateau-07552.herokuapp.com request_id=aa11c69a-8358-41f7-8376-a2eed8998f82 fwd="124.39.15.68" dyno=web.1 connect=0ms service=5ms status=200 bytes=12074 protocol=https
+2020-04-04T09:46:22.369239+00:00 app[web.1]: [0mGET /js/app.b59765a9.js [32m200 [0m3.312 ms - 11738[0m
+2020-04-04T09:46:22.398893+00:00 app[web.1]: [0mGET /js/chunk-vendors.adec6846.js [32m200 [0m1.511 ms - 153474[0m
+2020-04-04T09:46:23.223797+00:00 app[web.1]: [0mGET /favicon.ico [32m200 [0m0.811 ms - 4286[0m
+2020-04-04T09:46:23.225691+00:00 app[web.1]: [0mGET /js/app.b59765a9.js.map [36m304 [0m0.766 ms - -[0m
+2020-04-04T09:46:23.225748+00:00 heroku[router]: at=info method=GET path="/js/app.b59765a9.js.map" host=aqueous-plateau-07552.herokuapp.com request_id=bc2bc098-d274-49ee-b9c1-d54173b0045b fwd="124.39.15.68" dyno=web.1 connect=0ms service=2ms status=304 bytes=270 protocol=https
+2020-04-04T09:46:23.229128+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=aqueous-plateau-07552.herokuapp.com request_id=58ce9214-e0df-4f8c-886e-87b1c078cc7f fwd="124.39.15.68" dyno=web.1 connect=0ms service=7ms status=200 bytes=4596 protocol=https
